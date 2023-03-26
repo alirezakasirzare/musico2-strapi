@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "sliders",
+  "info": {
+    "singularName": "slider",
+    "pluralName": "sliders",
+    "displayName": "slider",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "musics": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::music.music"
+    }
+  }
+}
